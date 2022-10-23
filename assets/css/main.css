@@ -1,40 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-@font-face {
-  font-family: Helvetica Now Display;
-  src: url(../webfonts/Helvetica_Now_Display.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Helvetica Now Display It;
-  src: url(../webfonts/Helvetica_Now_Display_It.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Helvetica Now Display Medium;
-  src: url(../webfonts/Helvetica_Now_Display_Medium.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Helvetica Now Display Md It;
-  src: url(../webfonts/Helvetica_Now_Display_Md_It.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Helvetica Now Display Bold;
-  src: url(../webfonts/Helvetica_Now_Display_Bold.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -145,13 +109,13 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 21px;
+		font-size: 18px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 20px;
+				font-size: 18px;
 			}
 
 		}
@@ -159,7 +123,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 20px;
+				font-size: 18px;
 			}
 
 		}
@@ -175,7 +139,7 @@ input, select, textarea {
 		@media screen and (max-width: 820px) {
 
 			html {
-				font-size: 20px;
+				font-size: 18px;
 			}
 
 		}
@@ -183,7 +147,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 18px;
+				font-size: 16px;
 			}
 
 		}
@@ -191,23 +155,23 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 18px;
+				font-size: 16px;
 			}
 
 		}
 
 	body {
 		background-color: #ffffff;
-		color: #000000;
+		color: #203f58;
 	}
 
 	body, input, select, textarea {
-		font-family: 'Helvetica Now Display', sans-serif;
-		font-weight: normal;
-		font-size: 1rem;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 0.9rem;
 		font-style: normal;
-		letter-spacing: 0;
-		line-height: 1.2;
+		letter-spacing: -0.01em;
+		line-height: 1.5;
 	}
 
 	a {
@@ -223,8 +187,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'Helvetica Now Display Medium', sans-serif;
-		font-weight: normal;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -240,9 +203,11 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: normal;
+		font-family: 'Chillax', sans-serif;
+		font-weight: 500;
+		color: #203f58;
 		line-height: 1;
-		letter-spacing: -0.01em;
+		letter-spacing: -0.035em;
 		margin: 0 0 1rem 0;
 	}
 
@@ -251,40 +216,47 @@ input, select, textarea {
 			text-decoration: none;
 		}
 		
-		.italic {
-			font-family: 'Helvetica Now Display Md It', sans-serif;
-		    font-weight: normal;
+		.text_regular {
+			font-family: 'Poppins', sans-serif;
+		    font-weight: 400;
+		}
+		
+		.text_semibold {
+			font-family: 'Poppins', sans-serif;
+		    font-weight: 500;
 		}
 		
 		.light {
-			font-family: 'BS-Regular', sans-serif;
-		    font-weight: normal;
+			font-family: 'Chillax', sans-serif;
+		    font-weight: 300;
 		}
 		
-		.medium {
-			font-family: 'Helvetica Now Display Medium', sans-serif;
-		    font-weight: normal;
+		.regular {
+			font-family: 'Chillax', sans-serif;
+		    font-weight: 400;
 		}
 		
 		.bold {
-			font-family: 'Helvetica Now Display Bold', sans-serif;
-		    font-weight: normal;
+			font-family: 'Chillax', sans-serif;
+		    font-weight: 600;
 		}
 
 	h1 {
 		font-size: 4.75rem;
+		letter-spacing: -0.055em;
 	}
 	
 	h1.major {
-		font-size: 5rem;
+		font-size: 6rem;
+		letter-spacing: -0.055em;
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-size: 2.5rem;
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 	h4 {
@@ -293,6 +265,7 @@ input, select, textarea {
 
 	h5 {
 		font-size: 0.9rem;
+		letter-spacing: -0.025em;
 	}
 
 	h6 {
@@ -371,15 +344,15 @@ input, select, textarea {
 		}
 	
 	    h1.major {
-		    font-size: 3.75rem;
+		    font-size: 4.75rem;
 	    }
 
 		h2 {
-			font-size: 2rem;
+			font-size: 3rem;
 		}
 
 		h3 {
-			font-size: 1.25rem;
+			font-size: 2rem;
 		}
 
 		h4 {
@@ -407,15 +380,15 @@ input, select, textarea {
 		}
 	
 	    h1.major {
-		    font-size: 2.75rem;
+		    font-size: 4rem;
 	    }
 
 		h2 {
-			font-size: 1.8rem;
+			font-size: 2rem;
 		}
 
 		h3 {
-			font-size: 1.25rem;
+			font-size: 1.5rem;
 		}
 
 		h4 {
@@ -451,15 +424,15 @@ input, select, textarea {
 		}
 	
 	    h1.major {
-		    font-size: 2rem;
+		    font-size: 3.5rem;
 	    }
 
 		h2 {
-			font-size: 1.35rem;
+			font-size: 1.65rem;
 		}
 
 		h3 {
-			font-size: 1.25rem;
+			font-size: 1.35rem;
 		}
 
 		h4 {
@@ -481,12 +454,12 @@ input, select, textarea {
 	}
 
 	a {
-		color: #000000;
+		color: #4d6579;
 	}
 
 		a:hover {
 			color: #000000;
-			border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+			border-bottom: 1px solid rgba(0, 0, 0, 0);
 		}
 
 	blockquote {
@@ -499,7 +472,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: rgba(0, 0, 0, 0.9);
+		border-bottom-color: #a6b2bc;
 	}
 
 /* Row */
@@ -2503,8 +2476,8 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
-		letter-spacing: 0.125em;
+		font-weight: 600;
+		letter-spacing: 0.025em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -2586,8 +2559,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
-		color: #000000 !important;
+		box-shadow: inset 0 0 0 2px #162c3e;
+		color: #162c3e !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2595,8 +2568,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			background-color: #162c3e;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"]:active,
@@ -2604,9 +2577,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(71, 211, 229, 0.2);
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			background-color: #162c3e;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"].primary,
@@ -2614,7 +2586,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: #162c3e;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2624,7 +2596,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47D3E5;
+				background-color: #4d6579;
 			}
 
 			input[type="submit"].primary:active,
@@ -2632,7 +2604,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: #4d6579;
 			}
 
 /* Form */
@@ -7212,8 +7184,8 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #000000;
-			color: #ffffff;
+			background-color: #162C3E;
+			color: #e9ecee;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -7247,7 +7219,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: white;
+				border-bottom-color: #4d6579;
 			}
 
 			#wrapper > .invert .box {
@@ -7516,11 +7488,11 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: #f5f5f5;
+			background-color: #203F58;
 		}
 
 		#wrapper > .color2 {
-			background-color: #12f8ff;
+			background-color: #E9ECEE;
 		}
 
 		#wrapper > .color3 {
